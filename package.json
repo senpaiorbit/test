@@ -1,0 +1,15 @@
+{
+  "name": "miruro-api-node",
+  "version": "2.0.0",
+  "description": "Miruro API v2.0 — Node.js/Vercel port",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "node --watch api/index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
